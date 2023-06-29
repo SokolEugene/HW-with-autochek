@@ -4,6 +4,7 @@ import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
+import avatarFriend from './avatarFriend.png'
 
 /*
 * 1 - описать тип MessageType
@@ -18,6 +19,7 @@ export type MessageType = {
     id: number
     user: {
         avatar: string
+        avatarFriend: string
         name: string
     },
     message: {
@@ -31,7 +33,8 @@ export const message0: MessageType = {
     id: 0,
     user: {
         avatar: avatar, // ТИПИЗИРУЕТСЯ КАК string
-        name: 'Pitt',  // можно менять
+        avatarFriend: avatarFriend,
+        name: 'Jack',  // можно менять
     },
     message: {
         text: 'Why everybody asking me about Tayler Durden?', // можно менять
@@ -42,10 +45,11 @@ export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: avatar, // можно менять
+        avatarFriend: avatarFriend,
         name: 'Tyler Durden', // можно менять
     },
     message: {
-        text: "I really don't know!", // можно менять
+        text: 'I really don\'t know!', // можно менять
         time: '22:01', // можно менять
     },
 }

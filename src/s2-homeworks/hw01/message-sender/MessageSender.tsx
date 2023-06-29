@@ -1,7 +1,10 @@
 import React, {useEffect, useRef, useState} from 'react'
-import { message0 } from '../HW1'
+import {message0, MessageType} from '../HW1'
 import s from './MessageSender.module.css'
 
+/*export type MessageSenderPropsType = {
+    message: MessageType
+}*/
 // компонента, которая тестирует вашу компоненту (не изменять, any не трогать)
 const MessageSender = (props: any) => {
     const M = props.M

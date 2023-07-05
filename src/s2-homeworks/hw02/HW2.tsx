@@ -50,7 +50,7 @@ export const filterAffairs = (affairs: AffairType[], filter: FilterType): Affair
 export const deleteAffair = (affairs: AffairType[], _id: number): AffairType[] => { // need to fix any
     // need to fix
     // отбрасывай при помощи метода filter лишних affairs
-    return affairs.filter(el=>el._id!==_id)
+    return affairs.filter(el=> el._id!==_id)
 }
 
 function HW2() {

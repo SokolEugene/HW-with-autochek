@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/HW-with-autochek/static/css/main.ebb4d1eb.css",
-    "main.js": "/HW-with-autochek/static/js/main.8cfdd855.js",
+    "main.css": "/HW-with-autochek/static/css/main.1be46fa5.css",
+    "main.js": "/HW-with-autochek/static/js/main.e700b0ee.js",
     "static/js/787.66cb4309.chunk.js": "/HW-with-autochek/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/HW-with-autochek/static/media/avatar.551efb2906d3d7830eff.png",
     "static/media/avatarFriend.png": "/HW-with-autochek/static/media/avatarFriend.d947cb9d0d13765666b6.png",
     "static/media/checked.svg": "/HW-with-autochek/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/HW-with-autochek/index.html",
-    "main.ebb4d1eb.css.map": "/HW-with-autochek/static/css/main.ebb4d1eb.css.map",
-    "main.8cfdd855.js.map": "/HW-with-autochek/static/js/main.8cfdd855.js.map",
+    "main.1be46fa5.css.map": "/HW-with-autochek/static/css/main.1be46fa5.css.map",
+    "main.e700b0ee.js.map": "/HW-with-autochek/static/js/main.e700b0ee.js.map",
     "787.66cb4309.chunk.js.map": "/HW-with-autochek/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebb4d1eb.css",
-    "static/js/main.8cfdd855.js"
+    "static/css/main.1be46fa5.css",
+    "static/js/main.e700b0ee.js"
   ]
 }

@@ -1,4 +1,7 @@
 .spanBlock {
+    display: flex;
+    width: 125px;
+    height: 20px;
 }
 
 .span {
@@ -8,4 +11,5 @@
 }
 
 .pen {
+    display: flex;
 }

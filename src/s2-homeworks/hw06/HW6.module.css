@@ -1,5 +1,16 @@
 .buttonsContainer {
+    width: 375px;
+    display: flex;
+    margin: 25px;
+    justify-content: space-between;
 }
 
 .editableSpanContainer {
+    margin: 25px;
+    width: 375px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    color: #0080FF;
+
 }

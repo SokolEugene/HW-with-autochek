@@ -60,11 +60,11 @@ function Affairs(props: AffairsPropsType) {
                     All
                 </button>
                 <button
-                    id={'hw2-button-low'}
-                    onClick={setLow}
-                    className={cnLow}
+                    id={'hw2-button-high'}
+                    onClick={setHigh}
+                    className={cnHigh}
                 >
-                    Low
+                    High
                 </button>
                 <button
                     id={'hw2-button-middle'}
@@ -73,13 +73,12 @@ function Affairs(props: AffairsPropsType) {
                 >
                     Middle
                 </button>
-
                 <button
-                    id={'hw2-button-high'}
-                    onClick={setHigh}
-                    className={cnHigh}
+                    id={'hw2-button-low'}
+                    onClick={setLow}
+                    className={cnLow}
                 >
-                    High
+                    Low
                 </button>
             </div>
             {/*Вот то что мы мапили на стр40 здесь используем. Можно было конечно прямо*/}

@@ -9,7 +9,11 @@
 }
 
 .label {
+    display: flex;
+    padding: 0 20px 20px 20px;
+    margin: 10px;
 }
 
 .options {
+
 }

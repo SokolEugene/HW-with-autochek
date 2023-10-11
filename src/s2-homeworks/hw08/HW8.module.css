@@ -1,23 +1,35 @@
 .item {
+
 }
 
 .item:last-of-type {
 }
 
 .users {
+
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    width: 606px;
 }
 
 .thead {
 }
 
-.nameCol {
+.nameCol:first-child{
+    padding: 10px;
+    text-align: center;
 }
 
 .ageCol {
+    padding: 10px;
+    text-align: center;
 }

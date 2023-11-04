@@ -2,13 +2,24 @@
 }
 
 .clock {
+    padding: 15px;
 }
 
 .watch {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: black;
 }
 
 .watch strong {
+    font-weight: 600;
 }
 
 .more {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #00000080;
 }

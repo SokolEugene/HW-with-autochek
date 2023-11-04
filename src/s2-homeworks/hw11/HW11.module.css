@@ -1,8 +1,18 @@
 .container {
+    width: 1280px;
+    height: 373px;
+    padding: 15px;
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    padding-bottom: 15px;
 }
 
 .number {
+    display: flex;
+    justify-content: center;
 }

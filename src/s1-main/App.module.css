@@ -5,9 +5,13 @@
 .hw {
     max-width: 1125px;
     margin: 0 auto;
-
+    padding: 25px 50px 10px 50px;
 }
 
 .hwTitle {
-
+    padding: 5px 5px 5px 10px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }

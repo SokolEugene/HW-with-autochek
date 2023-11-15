@@ -1,22 +1,43 @@
 .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
 }
 
 .responseContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
 .imageContainer {
+    padding-top: 25px;
+    flex: 2;
 }
 
 .image {
+    max-width: 100%;
+    height: auto;
 }
 
 .textContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .code {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .text {
+    text-align: left;
+    margin-bottom: 10px;
 }
 .info {
+    text-align: left;
+    margin-bottom: 10px;
 }
